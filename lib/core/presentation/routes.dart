@@ -15,7 +15,7 @@ import 'package:flutter_ui_challenges/src/pages/ecommerce/ecommerce4.dart';
 import 'package:flutter_ui_challenges/src/pages/invitation/inauth.dart';
 import 'package:flutter_ui_challenges/src/pages/invitation/inlanding.dart';
 import 'package:flutter_ui_challenges/src/pages/invitation/invitation1.dart';
-import 'package:flutter_ui_challenges/src/pages/login/auth3.dart';
+// import 'package:flutter_ui_challenges/src/pages/login/auth3.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/bottomsheet.dart';
 import 'package:flutter_ui_challenges/src/pages/food/cake.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/crop.dart';
@@ -35,32 +35,32 @@ import 'package:flutter_ui_challenges/src/pages/dashboard/dash3.dart';
 import 'package:flutter_ui_challenges/src/pages/dashboard/dash2.dart';
 import 'package:flutter_ui_challenges/src/pages/dashboard/dash1.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/chat2.dart';
-import 'package:flutter_ui_challenges/src/pages/login/auth1.dart';
+// import 'package:flutter_ui_challenges/src/pages/login/auth1.dart';
 import 'package:flutter_ui_challenges/src/pages/lists/list2.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/chatui.dart';
 import 'package:flutter_ui_challenges/src/pages/lists/list1.dart';
 import 'package:flutter_ui_challenges/src/pages/hotel/hhome.dart';
 import 'package:flutter_ui_challenges/src/pages/food/fdhome.dart';
 import 'package:flutter_ui_challenges/src/pages/blog/bhome1.dart';
-import 'package:flutter_ui_challenges/src/pages/login/auth2.dart';
+// import 'package:flutter_ui_challenges/src/pages/login/auth2.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/sliders.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/navybar.dart';
-import 'package:flutter_ui_challenges/src/pages/login/login5.dart';
+/* import 'package:flutter_ui_challenges/src/pages/login/login5.dart';
 import 'package:flutter_ui_challenges/src/pages/login/login4.dart';
 import 'package:flutter_ui_challenges/src/pages/login/login3.dart';
 import 'package:flutter_ui_challenges/src/pages/login/login2.dart';
-import 'package:flutter_ui_challenges/src/pages/login/login1.dart';
+import 'package:flutter_ui_challenges/src/pages/login/login1.dart'; */
 import 'package:flutter_ui_challenges/src/pages/travel/thome.dart';
 import 'package:flutter_ui_challenges/src/pages/food/avocado.dart';
-import 'package:flutter_ui_challenges/src/pages/login/login7.dart';
-import 'package:flutter_ui_challenges/src/pages/login/login6.dart';
+/* import 'package:flutter_ui_challenges/src/pages/login/login7.dart';
+import 'package:flutter_ui_challenges/src/pages/login/login6.dart'; */
 import 'package:flutter_ui_challenges/src/pages/misc/loaders.dart';
 import 'package:flutter_ui_challenges/src/pages/grocery/ghome.dart';
-import 'package:flutter_ui_challenges/src/pages/login/signup2.dart';
+// import 'package:flutter_ui_challenges/src/pages/login/signup2.dart';
 import 'package:flutter_ui_challenges/src/pages/blog/article2.dart';
 import 'package:flutter_ui_challenges/src/pages/blog/article1.dart';
 import 'package:flutter_ui_challenges/src/pages/hotel/details.dart';
-import 'package:flutter_ui_challenges/src/pages/login/signup1.dart';
+// import 'package:flutter_ui_challenges/src/pages/login/signup1.dart';
 import 'package:flutter_ui_challenges/src/pages/quiz_app/home.dart';
 import 'package:flutter_ui_challenges/src/pages/dialogs/dialogs.dart';
 import 'package:flutter_ui_challenges/src/pages/todo/todo_home2.dart';
@@ -107,7 +107,7 @@ import 'package:flutter_ui_challenges/src/pages/animations/animation1/animation1
 import 'package:flutter_ui_challenges/src/pages/onboarding/smart_wallet_onboarding.dart';
 
 final List<dynamic> pages = [
-  MenuItem(title: "Animations", icon: FontAwesomeIcons.truckMoving, items: [
+  /* MenuItem(title: "Animations", icon: FontAwesomeIcons.truckMoving, items: [
     SubMenuItem("Fancy Appbar Animation", FancyAppbarAnimation(),
         path: FancyAppbarAnimation.path),
     SubMenuItem("Hero Animation", AnimationOnePage(),
@@ -118,8 +118,8 @@ final List<dynamic> pages = [
         path: AnimatedBottomBar.path),
     SubMenuItem("Animated List One", AnimatedListOnePage(),
         path: AnimatedListOnePage.path),
-  ]),
-  MenuItem(title: "Profile", icon: Icons.person, items: [
+  ]), */
+  /* MenuItem(title: "Profile", icon: Icons.person, items: [
     SubMenuItem("Profile One", ProfileOnePage(), path: ProfileOnePage.path),
     SubMenuItem("Profile Two", ProfileTwoPage(), path: ProfileTwoPage.path),
     SubMenuItem("Profile Three", ProfileThreePage(),
@@ -280,7 +280,7 @@ final List<dynamic> pages = [
     SubMenuItem("Onboarding 2", IntroTwoPage(), path: IntroTwoPage.path),
     SubMenuItem("Onboarding 3", IntroThreePage(), path: IntroThreePage.path),
     SubMenuItem("Onboarding 5", Intro5(), path: Intro5.path),
-  ]),
+  ]), */
   MenuItem(
       title: "UI Kits (Clones)",
       items: [

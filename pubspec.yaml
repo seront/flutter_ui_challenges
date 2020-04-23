@@ -82,7 +82,7 @@ flutter:
     - lib/src/pages/food/
     - lib/src/pages/grocery/
     - lib/src/pages/hotel/
-    - lib/src/pages/login/
+    # - lib/src/pages/login/
     - lib/src/pages/lists/
     - lib/src/pages/misc/
     - lib/src/pages/navigation/

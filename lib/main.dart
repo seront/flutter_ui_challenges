@@ -9,8 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenges/features/auth/presentation/pages/home.dart';
 import 'package:flutter_ui_challenges/features/auth/presentation/pages/profile_page.dart';
 import 'package:flutter_ui_challenges/features/auth/presentation/pages/signup.dart';
-import 'package:flutter_ui_challenges/features/home/presentation/pages/new_home.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_ui_challenges/src/pages/grocery/ghome.dart';
 
 import 'core/presentation/pages/about.dart';
 import 'core/presentation/pages/home.dart';
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               primarySwatch: Colors.red,
               accentColor: Colors.indigo,
             ),
-            home: user.loginSkipped ? NewHomePage() : AuthHomePage(),
+            home: user.loginSkipped ? GroceryHomePage() : AuthHomePage(),
             routes: {
               "auth_home": (_) => AuthHomePage(),
               "challenge_home": (_) => HomePage(),
