@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               primarySwatch: Colors.red,
               accentColor: Colors.indigo,
             ),
-            home: user.loginSkipped ? GroceryHomePage() : AuthHomePage(),
+            home: user.loginSkipped ? GroceryHomePage() :GroceryHomePage(),
             routes: {
               "auth_home": (_) => AuthHomePage(),
               "challenge_home": (_) => HomePage(),

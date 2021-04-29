@@ -72,13 +72,13 @@ flutter:
     - assets/hotel/
     - assets/icon/
     - assets/flare/
-    - lib/src/pages/animations/
-    - lib/src/pages/animations/animation1/
+#    - lib/src/pages/animations/
+#    - lib/src/pages/animations/animation1/
     - lib/src/pages/bike/
     - lib/src/pages/blog/
     - lib/src/pages/dialogs/
     - lib/src/pages/dashboard/
-    - lib/src/pages/ecommerce/
+#    - lib/src/pages/ecommerce/
     - lib/src/pages/food/
     - lib/src/pages/grocery/
     - lib/src/pages/hotel/
@@ -87,7 +87,7 @@ flutter:
     - lib/src/pages/misc/
     - lib/src/pages/navigation/
     - lib/src/pages/onboarding/
-    - lib/src/pages/profile/
+#    - lib/src/pages/profile/
     - lib/src/pages/quiz_app/
     - lib/src/pages/todo/
     - lib/src/pages/settings/
